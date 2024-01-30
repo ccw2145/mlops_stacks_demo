@@ -18,21 +18,21 @@ include:
 
 # Deployment Target specific values for workspace
 targets:
-  dev:
+  ccw_dev:
     default: true
     workspace:
       # TODO: add dev workspace URL
-      host:
+      host: https://e2-demo-field-eng.cloud.databricks.com
 
-  staging:
+  ccw_staging:
     workspace:
       host: https://e2-demo-field-eng.cloud.databricks.com
 
-  prod:
+  ccw_prod:
     workspace:
       host: https://e2-demo-field-eng.cloud.databricks.com
 
-  test:
+  ccw_test:
     workspace:
       host: https://e2-demo-field-eng.cloud.databricks.com
 
